@@ -6,7 +6,7 @@
   --text-color: #999;
   --primary-color: #b09639;
   --highlight-color: #d13267;
-  --bg-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  --bg-color: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
 }
 
 /* base styles */
