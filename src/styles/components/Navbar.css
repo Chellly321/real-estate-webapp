@@ -3,7 +3,9 @@
   box-shadow: 0 4px 0 4px, rgba(0, 0, 0, 0.25);
   height: 5em;
   display: flex;
-  justify-content: center;
+  right: 5em;
+  top: 0;
+  justify-content: space-between;
   align-items: center;
   font-size: 1.2rem;
   position: sticky;
@@ -14,11 +16,15 @@
 
 .navbar-container {
   align-items: center;
+  margin-right: 20em;
+}
+.fa-bars {
+  visibility: hidden;
 }
 
 .logo {
-  margin-top: 5em;
-  height: 9em;
+  height: 6em;
+  margin-left: 15em;
 }
 a.nav-item {
   padding: 2em;
@@ -28,13 +34,64 @@ nav a {
   text-decoration: none;
   color: white;
 }
+nav a:hover {
+  color: #b09639;
+}
 nav a.active {
   text-decoration: none;
   list-style: none;
   font-weight: bold;
-  color: #b09639;
+  color: black;
   text-decoration-line: underline;
   text-decoration-style: double;
 }
+.menu-logo {
+  visibility: hidden;
+  height: 0;
+  width: 0;
+}
+@media screen and (max-width: 1350px) {
+  .logo {
+    margin-left: 5em;
+  }
+}
 @media screen and (max-width: 950px) {
+  .navbar-container {
+    display: flex;
+    flex-direction: column;
+    z-index: 998 !important;
+    position: absolute;
+    width: 100%;
+    top: 5px;
+    background-color: black;
+    transform: translateY(-300px);
+    transition: transform 1s ease-in-out, visibility 1s;
+    visibility: hidden;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  nav a.active {
+    color: #b09639;
+  }
+
+  .fa-bars {
+    display: flex;
+    color: #b09639;
+    padding-right: 4em;
+    z-index: 999 !important;
+    visibility: visible;
+  }
+
+  .menu-logo {
+    height: 8em;
+    width: 8em;
+  }
+
+  .mobile-menu,
+  .menu-logo {
+    visibility: visible;
+    transform: translateY(0px);
+    transition: transform 1s ease-in-out, visibility 1s;
+  }
 }
