@@ -1,10 +1,9 @@
 import "./../styles/components/Navbar.css";
 import Logo from "../assets/logo/5.png";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
-import { click } from "@testing-library/user-event/dist/click";
+import { faBars, faStar } from "@fortawesome/free-solid-svg-icons";
 
 function Navbar() {
   const [showLogo, setShowLogo] = useState(true);
@@ -36,6 +35,9 @@ function Navbar() {
           <NavLink to="/properties" className="nav-item">
             Properties
           </NavLink>
+          <NavLink to="/sell-rent" className="nav-item">
+            Sell/Rent
+          </NavLink>
           <NavLink to="/projects" className="nav-item">
             Projects
           </NavLink>
@@ -47,6 +49,7 @@ function Navbar() {
           </NavLink>
         </div>
 
+        <FontAwesomeIcon icon={faStar} />
         <FontAwesomeIcon
           className="fa-bars"
           icon={faBars}
