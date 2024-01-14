@@ -21,6 +21,10 @@
 .fa-bars {
   visibility: hidden;
 }
+.faStar:hover {
+  color: #b09639;
+  cursor: pointer;
+}
 
 .logo {
   height: 6em;

@@ -1,0 +1,25 @@
+.slider-container,
+.slider-img {
+  filter: brightness(50%);
+}
+.header-context {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  position: absolute;
+  top: 50%;
+  left: 35%;
+}
+
+.header-context h1 {
+  color: white;
+}
+.link {
+  margin-top: 3em;
+}
+
+.header-context .btn {
+  margin: 1em;
+}

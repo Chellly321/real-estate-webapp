@@ -49,7 +49,9 @@ function Navbar() {
           </NavLink>
         </div>
 
-        <FontAwesomeIcon icon={faStar} />
+        <Link to="/favorites">
+          <FontAwesomeIcon className="faStar" icon={faStar} />
+        </Link>
         <FontAwesomeIcon
           className="fa-bars"
           icon={faBars}
