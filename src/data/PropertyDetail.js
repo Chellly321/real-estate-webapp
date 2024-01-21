@@ -133,5 +133,21 @@ const PropertyDetail = [
     bedrooms: "3 Bed",
     furnished: "unfurnished",
   },
+  {
+    id: "9",
+    type: "Villa",
+    listingType: "Buy",
+    image: PropertyPic1,
+    heading: "Comfortable Apartment in Sint Maarten",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
+    price: " $500.000",
+    address: "Simpson Bay Yacht Club 12-3, 97150",
+    country: "Sint Maarten",
+    area: "Phillipsburg",
+    surface: "1200 Sqft",
+    bedrooms: "3 Bed",
+    furnished: "unfurnished",
+  },
 ];
 export default PropertyDetail;

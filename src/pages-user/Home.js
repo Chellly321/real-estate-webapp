@@ -10,7 +10,10 @@ function Home() {
     <div>
       <Header />
       <HomeText />
-      <PropertyCard data={data} />
+      <div className="card-row">
+        <PropertyCard data={data} />
+      </div>
+      <button>See more</button>
     </div>
   );
 }
