@@ -2,10 +2,8 @@ import React, { useState } from "react";
 import Header from "../components/Header";
 import HomeText from "../home/HomeText";
 import PropertyCard from "../components/PropertyCard";
-import PropertyDetail from "../data/PropertyDetail";
 
-function Home() {
-  const [data, setData] = useState(PropertyDetail);
+function Home({ data }) {
   return (
     <div>
       <Header />

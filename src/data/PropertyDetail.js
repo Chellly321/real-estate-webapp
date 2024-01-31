@@ -1,8 +1,8 @@
-import PropertyPic1 from "../assets/images/image14.jpeg";
-import PropertyPic2 from "../assets/images/image1.jpeg";
-import PropertyPic3 from "../assets/images/image12.jpeg";
-import PropertyPic4 from "../assets/images/image14.jpeg";
-import PropertyPic5 from "../assets/images/image1.jpeg";
+import PropertyPic1 from "../assets/images/image6.jpeg";
+import PropertyPic2 from "../assets/images/image8.png";
+import PropertyPic3 from "../assets/images/image6.jpeg";
+import PropertyPic4 from "../assets/images/image8.png";
+import PropertyPic5 from "../assets/images/image6.jpeg";
 
 const PropertyDetail = [
   {
@@ -14,7 +14,7 @@ const PropertyDetail = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     price: " $1.000.000",
-    address: "Simpson Bay Yacht Club 12-3, 97150",
+    address: "sYacht Club 12-3, 97150",
     country: "Sint Maarten",
     area: "Simpson Bay",
     surface: "1200 Sqft",
@@ -30,9 +30,9 @@ const PropertyDetail = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     price: " $200.000",
-    address: "Simpson Bay Yacht Club 12-3, 97150",
+    address: "Yacht Club 12-3, 97150",
     country: "Sint Maarten",
-    area: "Cupe Coy",
+    area: "Simpson Bay",
     surface: "1200 Sqft",
     bedrooms: "3 Bed",
     furnished: "unfurnished",
@@ -46,7 +46,7 @@ const PropertyDetail = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     price: " $10.000",
-    address: "Lot 644 Rue Dufy Terres Basses, 97150",
+    address: "Lot 644 Rue Dufy, 97150",
     country: "Sint Maarten",
     area: "Baie Rouge",
     surface: "1200 Sqft",
@@ -62,7 +62,7 @@ const PropertyDetail = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     price: " $450.000",
-    address: "Simpson Bay Yacht Club 12-3, 97150",
+    address: "Yacht Club 12-3, 97150",
     country: "Sint Maarten",
     area: "Simpson Bay",
     surface: "1200 Sqft",
@@ -78,7 +78,7 @@ const PropertyDetail = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     price: " $1.000.000",
-    address: "Lot 644 Rue Dufy Terres Basses, 97150",
+    address: "Lot 644 Rue Dufy, 97150",
     country: "Sint Maarten",
     area: "Terres Bases",
     surface: "1200 Sqft",
@@ -94,9 +94,9 @@ const PropertyDetail = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     price: " $2000",
-    address: "Lot 644 Rue Dufy Terres Basses, 97150",
+    address: "Lot 644 Rue Dufy, 97150",
     country: "Sint Maarten",
-    area: "Baie Rouge",
+    area: "Terres Basses",
     surface: "1200 Sqft",
     bedrooms: "3 Bed",
     furnished: "furnished",
@@ -110,9 +110,9 @@ const PropertyDetail = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet, illoat. Repudiandae ratione impedit delectus consectetur. Aspernaturvero obcaecati placeat ab distinctio unde ipsam molestias atqueratione delectus blanditiis nemo eius dignissimos doloremque quaealiquid maiores id tempore consequatur, quod pariatur saepe.",
     price: " $1.000.000",
-    address: "Lot 644 Rue Dufy Terres Basses, 97150",
+    address: "Lot 644 Rue Dufy, 97150",
     country: "Sint Maarten",
-    area: "Cupe Coy",
+    area: "Terres Basses",
     surface: "1200 Sqft",
     bedrooms: "3 Bed",
     furnished: "unfurnished",
