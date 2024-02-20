@@ -2,12 +2,14 @@
 .slider-img {
   filter: brightness(50%);
 }
+.header-container {
+  width: auto;
+}
 .header-context {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-
   position: absolute;
   top: 50%;
   left: 35%;

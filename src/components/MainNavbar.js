@@ -1,18 +1,15 @@
 import "./../styles/components/Navbar.css";
 import Logo from "../assets/logo/5.png";
 import React, { useEffect, useRef, useState } from "react";
-import { NavLink, Link, useLocation } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faStar } from "@fortawesome/free-solid-svg-icons";
 import OutsideClick from "../helper/OutsideClick";
 
-function Navbar() {
+function MainNavbar() {
   const [showLogo, setShowLogo] = useState(true);
   const [showMenu, setShowMenu] = useState(false);
   const [transitionNavbar, setTransitionNavbar] = useState(false);
-  const location = useLocation();
-
-  const homePage = location.pathname === "/";
 
   const navRef = useRef(null);
   const isClickedOutside = OutsideClick(navRef);
@@ -34,10 +31,7 @@ function Navbar() {
 
   return (
     <>
-      <nav
-        className={transitionNavbar ? "navbar nav-active" : "navbar"}
-        ref={navRef}
-      >
+      <nav className="main_navbar">
         <div className="icons-container">
           <FontAwesomeIcon
             className="fa-bars"
@@ -85,4 +79,4 @@ function Navbar() {
     </>
   );
 }
-export default Navbar;
+export default MainNavbar;

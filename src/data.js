@@ -1,12 +1,12 @@
-import PropertyPic1 from "../assets/images/image6.jpeg";
-import PropertyPic2 from "../assets/images/image8.png";
-import PropertyPic3 from "../assets/images/image6.jpeg";
-import PropertyPic4 from "../assets/images/image8.png";
-import PropertyPic5 from "../assets/images/image6.jpeg";
+import PropertyPic1 from "../src/assets/images/image6.jpeg";
+import PropertyPic2 from "../src/assets/images/image8.png";
+import PropertyPic3 from "../src/assets/images/image6.jpeg";
+import PropertyPic4 from "../src/assets/images/image8.png";
+import PropertyPic5 from "../src/assets/images/image6.jpeg";
 
-const PropertyDetail = [
+export const housesData = [
   {
-    id: "1",
+    id: 1,
     listingType: "Buy",
     type: "Villa",
     image: PropertyPic1,
@@ -22,7 +22,7 @@ const PropertyDetail = [
     furnished: "furnished",
   },
   {
-    id: "2",
+    id: 2,
     type: "Appartment",
     listingType: "Buy",
     image: PropertyPic2,
@@ -38,7 +38,7 @@ const PropertyDetail = [
     furnished: "unfurnished",
   },
   {
-    id: "3",
+    id: 3,
     type: "Villa",
     listingType: "Rent",
     image: PropertyPic3,
@@ -54,7 +54,7 @@ const PropertyDetail = [
     furnished: "furnished",
   },
   {
-    id: "4",
+    id: 4,
     type: "Villa",
     listingType: "Buy",
     image: PropertyPic4,
@@ -70,7 +70,7 @@ const PropertyDetail = [
     furnished: "unfurnished",
   },
   {
-    id: "5",
+    id: 5,
     type: "House",
     listingType: "Rent",
     image: PropertyPic5,
@@ -86,7 +86,7 @@ const PropertyDetail = [
     furnished: "furnished",
   },
   {
-    id: "6",
+    id: 6,
     type: "Appartment",
     listingType: "Rent",
     image: PropertyPic2,
@@ -102,7 +102,7 @@ const PropertyDetail = [
     furnished: "furnished",
   },
   {
-    id: "7",
+    id: 7,
     type: "Villa",
     listingType: "Buy",
     image: PropertyPic3,
@@ -118,7 +118,7 @@ const PropertyDetail = [
     furnished: "unfurnished",
   },
   {
-    id: "8",
+    id: 8,
     type: "Villa",
     listingType: "Buy",
     image: PropertyPic1,
@@ -134,7 +134,7 @@ const PropertyDetail = [
     furnished: "unfurnished",
   },
   {
-    id: "9",
+    id: 9,
     type: "Villa",
     listingType: "Buy",
     image: PropertyPic1,
@@ -150,4 +150,3 @@ const PropertyDetail = [
     furnished: "unfurnished",
   },
 ];
-export default PropertyDetail;
