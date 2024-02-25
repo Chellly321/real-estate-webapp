@@ -2,7 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/components/PropertyCard.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faExpand, faBed, faCouch } from "@fortawesome/free-solid-svg-icons";
+import {
+  faExpand,
+  faBed,
+  faCouch,
+  faShower,
+} from "@fortawesome/free-solid-svg-icons";
 
 function PropertyCard({ data }) {
   return (
@@ -52,6 +57,12 @@ function PropertyCard({ data }) {
                           <FontAwesomeIcon icon={faCouch} />
                         </span>
                         <span>{data.furnished}</span>
+                      </li>
+                      <li className="list-item">
+                        <span>
+                          <FontAwesomeIcon icon={faShower} />
+                        </span>
+                        <span>{data.bathrooms}</span>
                       </li>
                     </ul>
                   </div>

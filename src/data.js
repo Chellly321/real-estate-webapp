@@ -19,6 +19,7 @@ export const housesData = [
     area: "Simpson Bay",
     surface: "1200 Sqft",
     bedrooms: "3 Bed",
+    bathrooms: "2 Baths",
     furnished: "furnished",
   },
   {
@@ -35,6 +36,7 @@ export const housesData = [
     area: "Simpson Bay",
     surface: "1200 Sqft",
     bedrooms: "3 Bed",
+    bathrooms: "2 Baths",
     furnished: "unfurnished",
   },
   {
@@ -51,6 +53,7 @@ export const housesData = [
     area: "Baie Rouge",
     surface: "1200 Sqft",
     bedrooms: "3 Beds",
+    bathrooms: "1 Baths",
     furnished: "furnished",
   },
   {
@@ -67,6 +70,7 @@ export const housesData = [
     area: "Simpson Bay",
     surface: "1200 Sqft",
     bedrooms: "3 Bed",
+    bathrooms: "2 Baths",
     furnished: "unfurnished",
   },
   {
@@ -83,6 +87,7 @@ export const housesData = [
     area: "Terres Bases",
     surface: "1200 Sqft",
     bedrooms: "3 Bed",
+    bathrooms: "1 Baths",
     furnished: "furnished",
   },
   {
@@ -99,6 +104,7 @@ export const housesData = [
     area: "Terres Basses",
     surface: "1200 Sqft",
     bedrooms: "3 Bed",
+    bathrooms: "3 Baths",
     furnished: "furnished",
   },
   {
@@ -115,6 +121,7 @@ export const housesData = [
     area: "Terres Basses",
     surface: "1200 Sqft",
     bedrooms: "3 Bed",
+    bathrooms: "3 Baths",
     furnished: "unfurnished",
   },
   {
@@ -131,6 +138,7 @@ export const housesData = [
     area: "Phillipsburg",
     surface: "1200 Sqft",
     bedrooms: "3 Bed",
+    bathrooms: "3 Baths",
     furnished: "unfurnished",
   },
   {
@@ -147,6 +155,7 @@ export const housesData = [
     area: "Phillipsburg",
     surface: "1200 Sqft",
     bedrooms: "3 Bed",
+    bathrooms: "3 Baths",
     furnished: "unfurnished",
   },
 ];

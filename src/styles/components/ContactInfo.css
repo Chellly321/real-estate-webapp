@@ -1,0 +1,35 @@
+.form-container {
+  float: right;
+  margin-right: 8px;
+}
+
+.form {
+  background-color: rgba(255, 253, 253, 0.548);
+  width: 350px;
+  border: 2px solid var(--primary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  border-radius: 12px;
+}
+
+.form_top img {
+  height: 150px;
+  width: 150px;
+}
+
+.form_top h5 {
+  margin: 0;
+  font-weight: 350;
+}
+
+.form_mid {
+  margin: 0.5em;
+}
+.input-field {
+  border: 1px solid var(--primary-color);
+  margin: 8px;
+}
