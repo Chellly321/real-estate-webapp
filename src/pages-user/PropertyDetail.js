@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import {
   faExpand,
   faBed,
@@ -14,6 +14,8 @@ import "../styles/properties/PropertyView.css";
 import MainNavbar from "../components/MainNavbar";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import ContactInfo from "../components/ContactInfo";
+import SliderImage from "../components/SliderImage.tsx";
+import PropertyImage from "../PropertyImage";
 
 const PropertyDetail = ({ housesData }) => {
   const { id } = useParams();
@@ -26,9 +28,19 @@ const PropertyDetail = ({ housesData }) => {
     <section className="property-id">
       <MainNavbar />
 
+      <div
+        style={{
+          maxWidth: "1700px",
+          width: "100%",
+          height: "700px",
+          margin: "0 auto",
+        }}
+      >
+        <SliderImage imageUrls={PropertyImage} />
+      </div>
       <div className="id_container">
         <div>
-          <img src={house.image} alt="house photo" className="id-image" />
+          {/* <img src={house.image} alt="house photo" className="id-image" /> */}
           <h2 className="header-detail">{house.heading}</h2>'
           <div className="list-details">
             <ul className="list_detail_items">

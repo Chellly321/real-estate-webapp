@@ -9,6 +9,12 @@
   --bg-color: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 /* base styles */
 body {
   font-family: Montserrat, Poppins, sans-serif;
@@ -40,7 +46,7 @@ ul {
 }
 .btn {
   background: #fff;
-  padding: 8px 12px;
+  padding: 10px 14px;
   border-radius: 50% 0 50% 0;
   color: var(--primary-color);
   cursor: pointer;

@@ -5,7 +5,8 @@
 
 .form {
   background-color: rgba(255, 253, 253, 0.548);
-  width: 350px;
+  width: 450px;
+  margin-right: 1em;
   border: 2px solid var(--primary-color);
   display: flex;
   flex-direction: column;

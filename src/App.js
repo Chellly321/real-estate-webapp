@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import PropertyDetail from "./pages-user/PropertyDetail";
 import { housesData } from "./data.js";
 import Home from "./pages-user/Home";
-import Navbar from "./components/Navbar.js";
 
 function App() {
   const [data, setData] = useState(housesData);
