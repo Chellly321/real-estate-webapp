@@ -1,19 +1,25 @@
 import React, { useState } from "react";
-
-import { ContactData } from "../ContactData.js";
+import { useParams } from "react-router-dom";
+import { ContactData } from "./ContactData.js";
 
 //styles
 import Logo from "../assets/logo/5.png";
 import "../styles/components/ContactInfo.css";
 import { Button } from "./Button.js";
+import { housesData } from "../data.js";
 
 export default function ContactInfo() {
   const [data, setData] = useState(ContactData);
+  const { id } = useParams();
+  const house = housesData.find((house) => {
+    return house.id === parseInt(id);
+  });
 
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     message: "",
+    messageInfo: `${house.address}`,
   });
 
   const handleSubmit = (e) => {
@@ -25,6 +31,7 @@ export default function ContactInfo() {
       name: "",
       email: "",
       message: "",
+      messageInfo: `${house.address}`,
     });
   };
 
@@ -60,11 +67,12 @@ export default function ContactInfo() {
                 />
                 <textarea
                   className="input-field"
+                  type="message"
                   name="message"
-                  placeholder="I'm interested in this property..."
+                  placeholder="I'm interested in this property... "
                 />
               </div>
-              <div button-container>
+              <div className="button-container">
                 <Button className="form_btn_email">Send Email</Button>
                 <Button className="form_btn_call">Call</Button>
               </div>

@@ -6,7 +6,10 @@
   --text-color: #999;
   --primary-color: #b09639;
   --highlight-color: #d13267;
-  --bg-color: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1));
+  --bg-color: linear-gradient(
+    rgba(199, 196, 196, 0.795),
+    rgba(255, 255, 255, 0.856)
+  );
 }
 
 *,
@@ -72,7 +75,6 @@ label span {
 input,
 textarea {
   padding: 8px 6px;
-  font-size: 1em;
   color: #777;
   width: 100%;
   box-sizing: border-box;
